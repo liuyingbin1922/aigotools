@@ -56,6 +56,7 @@ export default function CategoryOperation({
       </DropdownTrigger>
       <DropdownMenu>
         <DropdownItem
+          key={category._id}
           className="text-yellow-500"
           startContent={<Edit size={14} />}
           onClick={onEdit}
